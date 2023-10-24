@@ -1,0 +1,79 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('282.jpg'); /* Add the path to your background image */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #181818;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0); /* Add a semi-transparent white background to improve readability */
+    border-radius: 5px; /* Add rounded corners for the content area */
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: #8ba1af;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #8ba1af00;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+ background-color:#8ba1af;   
+color: #333;
+text-align: left;
+padding: 2px;
+}
+input{
+    display: inline-block;
+background-color: #fffffff4;
+-ms-text-justify: auto;
+text-emphasis-color: #b20e0e;
+}
+option{
+background-color: #e9c3c3;
+color: #333;
+}
+button{
+background-color: #8ba1af;
+border: #333;
+
+}

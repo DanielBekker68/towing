@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Transportation Booking</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Transportation Booking</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="booking-form">
+            <h2>Book Your Transportation</h2>
+            <form>
+               <ul> <label for="pickup-location">Pick-up Location:</label> </ul>
+               <ul> <input type="text" id="pickup-location" name="pickup-location" required></ul>
+                
+             <ul>   <label for="dropoff-location">Drop-off Location:</label></ul>
+              <ul>  <input type="text" id="dropoff-location" name="dropoff-location" required></ul>
+                
+               <ul> <label for="pickup-date-time">Pick-up Date and Time:</label> </ul>
+               <ul> <input type="datetime-local" id="pickup-date-time" name="pickup-date-time" required></ul>
+                
+                <Ul><label for="item">Item to Be Transported:</label></ul>
+                <select id="item" name="item">
+                    <option value="car">Car</option>
+                    <option value="bakkie">Bakkie</option>
+                    <option value="forklift">Forklift</option>
+                    <option value="another">Another</option>
+                </select>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Transportation Booking</p>
+    </footer>
+</body>
+</html>
